@@ -1,0 +1,32 @@
+{
+  "name": "heapset",
+  "version": "1.0.0",
+  "description": "A simple wrapper over heap that deduplicate same entries.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarosia/heapset.git"
+  },
+  "keywords": [
+    "heap",
+    "set"
+  ],
+  "author": "https://github.com/sarosia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarosia/heapset/issues"
+  },
+  "homepage": "https://github.com/sarosia/heapset#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.17.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "heap": "^0.2.6"
+  }
+}
