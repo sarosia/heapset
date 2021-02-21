@@ -1,6 +1,6 @@
 [![Build Status](https://github.com/sarosia/heapset/workflows/CI/badge.svg)](https://github.com/sarosia/heapset/actions)
 [![NPM version](https://badge.fury.io/js/heapset.svg)](https://www.npmjs.com/package/heapset)
-![Downloads](https://img.shields.io/npm/dm/heapset.svg?style=flat)
+[![Downloads](https://img.shields.io/npm/dm/heapset.svg?style=flat)](https://www.npmjs.com/package/heapset)
 
 # heapset
 
