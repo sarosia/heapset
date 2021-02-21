@@ -14,8 +14,8 @@ describe('heapset', () => {
     expect(heap.pop()).to.be.equal(3);
     expect(heap.size()).to.be.equal(0);
 
-    expect(heap.peek()).to.be.equal(undefined);
-    expect(heap.pop()).to.be.equal(undefined);
+    expect(heap.peek()).to.be.an('undefined');
+    expect(heap.pop()).to.be.an('undefined');
   });
 
   it('Duplicates', () => {
@@ -33,7 +33,7 @@ describe('heapset', () => {
     expect(heap.pop()).to.be.equal(3);
     expect(heap.size()).to.be.equal(0);
 
-    expect(heap.peek()).to.be.equal(undefined);
-    expect(heap.pop()).to.be.equal(undefined);
+    expect(heap.peek()).to.be.an('undefined');
+    expect(heap.pop()).to.be.an('undefined');
   });
 });
